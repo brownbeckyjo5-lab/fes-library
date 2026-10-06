@@ -75,7 +75,8 @@ text-decoration: none;
 }
 
 header {
-  height: calc(100vh - 80px);
+  min-height: calc(100vh - 80px);
+  
 }
 
 .header__container {
@@ -145,6 +146,10 @@ margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.no-cursor {
+  cursor: not-allowed;
 }
 
 /*
@@ -281,4 +286,33 @@ height: 1000px;
 .book__price--discounted {
   color: #e74c3c;
   font-weight: bold;
+}
+
+/*
+Explore
+*/
+
+#explore {
+  background-color: rgba(115, 66, 214, 0.1);
+  padding: 56px 0;
+}
+
+/*footer*/
+
+
+.footer {
+  background-color: #242424;
+
+}
+
+.footer__logo--img {
+  width: 160px;
+  filter: grayscale(1) invert(1);
+}
+
+
+.footer__link {
+.footer__copyright 
+color: #fff;
+
 }

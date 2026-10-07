@@ -6,25 +6,49 @@
     <meta name="viewport" content="width=device-width, initial">
     <title>Library</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/de6d644f8d.js" crossorigin="anonymous" alt=""></script>
-    <i class="fa-brands fa-linkedin-in"></i>
+    <script src="https://kit.fontawesome.com/de6d644f8d.js" crossorigin="anonymous" alt="">
+    </script>
+    <i class="fa-brands fa-linkedin-in">
+    </i>
     </head>
 
   <body>
     <section id="landing">
       <nav>
-        <div class="nav__container"></div>
+        <div class="nav__container">
       </div>
-
+      
       <img 
       class="logo" src="./assets/Library (2).svg" alt="">
        <ul class="nav__links">
-        <li><a href="#"class="nav__link">Home</a>
-        <li><a href="#"class="nav__link"></a>>Contact</a>
-        <li><a href="#"class="nav__link nav__link--primary"></a>>Books</a>
+        <li><a href="#"class="nav__link">Home</a></li>
+        <li><a href="#"class="nav__link">Contact</a></li>
+        <li><a href="#"class="nav__link nav__link--primary">Books</a>
+        </li>
         </li>
       </ul>  
    </div> 
+   <button class="btn__menu">
+   <i class="fas fa-bars">
+   </i>
+   </button>
+   <div class="menu__backdrop">
+    <button class="btn__menu btn__menu--close">
+      <i class="fas fa-times">
+      </i>
+    </button>
+    <ul>
+      <li class="menu__list">
+        <a href="#" class="footer__link">Home</a>
+      </li>
+      <li class="menu__list">
+        <a href="#" class="footer__link">Books</a>
+      </li>
+      <li class="menu__list">
+        <a href="#" class="footer__link no-cursor">Contact</a>
+      </li>
+    </ul>
+   </div>
   </nav>
      <header>
       <div class="header__container">
@@ -494,12 +518,14 @@
             alt="Bookstore Logo">
           </figure>
           </a>
-          <div class="footer__list"
-         <a href="#" class="footer__link no-cursor">Home</a>
-         <a href="#" class="footer__link no-cursor">About</a>
-       <a href="#" class="footer__link">Books</a>
-       <a href="#" class="footer__link no-cursor">Contact</a>
-        </div>
+          <div class="footer__list">
+            <ul class="footer__list--items">
+              <li><a href="#" class="footer__link no-cursor">Home</a></li>
+              <li><a href="#" class="footer__link no-cursor">About</a></li>
+              <li><a href="#" class="footer__link">Books</a></li>
+              <li><a href="#" class="footer__link no-cursor">Contact</a></li>
+            </ul>
+          </div>
         <div class="footer__copyright">Copyright 2023 Bookstore. All rights reserved.</div>
 
         </div>

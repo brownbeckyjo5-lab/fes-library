@@ -31,25 +31,25 @@
    </i>
    </button>
    <div class="menu__backdrop">
-    <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+    <button class="btn__menu btn__menu--close" onclick="closeMenu(onclick)">
     </button>
       <i class="fas fa-times">
       </i>
     </button>
     <ul class="menu__links">
-
-    </ul>
+   </ul>
       <li class="menu__list">
-        <a href="#" class="footer__link">Home</a>
+        <a href="#" class="footer__link" onclick="closeMenu()">Home</a>
       </li>
       <li class="menu__list">
-        <a href="#" class="footer__link">Books</a>
+        <a href="#" class="footer__link" onclick="closeMenu()">Books</a>
       </li>
       <li class="menu__list">
-        <a href="#" class="footer__link no-cursor">Contact</a>
+        <a href="#" class="footer__link no-cursor" onclick="closeMenu()">Contact</a>
       </li>
     </ul>
    </div>
+  </div>
   </nav>
      <header>
       <div class="header__container">
@@ -60,9 +60,11 @@
           Find your dream book with <span class="purple">Library
         </span>
         </h2>
-        <button class="btn">Browse Books</button>
+        <a href="#features"> 
+        <button class="btn">Browse Books
+        </a>
+        </button>
      </div>
-     
      <figure class="header__img--wrapper">
    <img src="./assets/Undraw_Books (2).svg" alt="" style="width: 400px;">
      </figure>
